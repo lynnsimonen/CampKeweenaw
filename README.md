@@ -1,0 +1,2 @@
+# CampKeweenaw
+Camp Keweenaw website
