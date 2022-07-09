@@ -1,11 +1,5 @@
-.homepic {
-    overflow: hidden;
-    width: 800px;
-    height: 300px;    
-    display: block;    
-    margin-left: auto;
-    margin-right: auto; 
-    height: 50vh;
+#carouselExampleDark {
+   
     padding-top: 5em;
   }
 
