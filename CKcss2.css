@@ -3,20 +3,36 @@
 
 .homepic {
     overflow: hidden;
-    width: 800px;
-    height: 300px;    
     display: block;    
-    margin-left: auto;
-    margin-right: auto; 
-    height: 50vh;
-    padding-top: 5em;
+    margin-left: 25%;
+    margin-right: 25%; 
+    max-height: 50vh;
+    padding-top: 3em;
   }
   
 .homepic img {
-    object-fit: cover;
     max-width: 100%;
-    height: auto;
   }
+
+  .zzz {
+    bottom: 0;
+    left: 0;
+    height: 300px;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    width: 100%;
+}
+
+.zzz img {
+    max-width: 100%;
+}
+
+
+
+
 
 body{
     background-color:white;
