@@ -9,12 +9,8 @@
     text-align: center;
 }
 
-#center {
-}
-
-#carouselExampleDark {
-   
-    padding-top: 5em;
+#carouselExampleDark {   
+    padding-top: 2em;
   }
 
 .carousel-item {
@@ -25,7 +21,6 @@
 }
 
 .container {
-    position: absolute;
     bottom: 50px;
     top: 50px;
     left: 0;
@@ -46,33 +41,15 @@
     transform: translate(-50%, -50%);
 }
 
-h5 {
+.subtext {
   font-size: 1rem;
   color: black;
   margin-bottom: -20px;
 }
-.rentsign {
-  padding-top: 65px;
-  color: black;
-  font-size: 1.5rem;
-  font-weight: bold;
-  text-align: center;
-            
-}
-.specs {
-  font-size: .75rem;
-  color: black;
-  font-weight: bold;
-  text-align: center;
-}
-
-.address {
-  font-size: .75rem;
-  color: black;
-  text-align: center;
-}
 
 body{
+    background-color:white;
+    color:#1C2F43;
     font-family: Verdana, Arial, sans-serif;
     margin-left: auto;
     margin-right: auto;
@@ -81,4 +58,12 @@ body{
     #wrapper {
         margin: auto;
         width: 90%;
+    }
+
+    #detailscontainer {
+        margin-left: 20%;
+        margin-right: 20%;
+        padding-top: 20px;
+        font-size: 4rem;
+        text-align: center;
     }
