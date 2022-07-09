@@ -1,3 +1,17 @@
+.dancing-script {
+    font-family: 'Dancing Script', cursive;
+}
+#introcontainer {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 20px;
+    font-size: 4rem;
+    text-align: center;
+}
+
+#center {
+}
+
 #carouselExampleDark {
    
     padding-top: 5em;
@@ -6,7 +20,7 @@
 .carousel-item {
     height: 25rem;
     background:gray;
-    color: white;            
+    color: black;            
     position: relative;
 }
 
@@ -21,6 +35,7 @@
 }
 
 .x {
+    padding-top: 20px;
     padding-bottom: 50px;
     max-height: 100%;
     width:auto;
@@ -33,12 +48,12 @@
 
 h5 {
   font-size: 1rem;
-  color: white;
+  color: black;
   margin-bottom: -20px;
 }
 .rentsign {
   padding-top: 65px;
-  color: red;
+  color: black;
   font-size: 1.5rem;
   font-weight: bold;
   text-align: center;
