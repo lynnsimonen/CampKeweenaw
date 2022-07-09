@@ -1,23 +1,57 @@
 * {box-sizing: border-box;}
 
-
-.homepic {
-    overflow: hidden;
-    width: 800px;
-    height: 300px;    
-    display: block;    
-    margin-left: auto;
-    margin-right: auto; 
-    height: 50vh;
-    padding-top: 5em;
-  }
-  
-.homepic img {
-    object-fit: cover;
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
     width: 100%;
-    min-height: 100%;
-  }
-
+    height: 3rem;
+    text-align: right;
+    background-color: #1c2f43;
+    margin: 0;
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+    padding-right: 0;
+}
+nav a {
+    text-decoration: none;
+}
+nav a:link {
+    color: #8cc3ef;
+}
+nav a:visited {
+    color: white;
+}
+nav a:hover {
+    color: #c0e7f9;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding-right: 2em;
+    font-size: .9em;
+}
+nav li {
+    display: inline;
+    padding-left: 2em;
+    width: 30%;
+}
+header {
+    margin-top: 40px;
+    color: #1C2F43;
+    background-image: url("Photos_CampKeweenaw/300x119canoe lake.jpg");
+    background-size: 100% 100%;
+    font-size: 90%;
+    min-height: 300px;
+    text-align: left;
+    vertical-align: text-bottom;
+}
+.homehdr {
+    vertical-align: text-bottom;
+    margin-left: 5px;
+    margin-top: 70px;
+}
 body{
     background-color:white;
     color:#1C2F43;
@@ -31,6 +65,7 @@ body{
 }
 #ctralign {
     margin: 0 auto;
+    horiz-align: center;
     background-color: white;
     padding: 2em;
 }
@@ -279,7 +314,16 @@ form {
         width: 90%;
     }
 
+    nav ul {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: space-around;
+    }
 
+    nav li {
+        width: 7em;
+    }
 
     section {
         padding-right: 2em;
@@ -332,7 +376,9 @@ form {
         padding-top: 5em;
         padding-left: 5em;
     }
-   
+    nav {
+        font-weight: bold;
+    }
     .content {
         height: 30vh;
         padding-top: 2em;

@@ -1,0 +1,69 @@
+.homepic {
+    overflow: hidden;
+    width: 800px;
+    height: 300px;    
+    display: block;    
+    margin-left: auto;
+    margin-right: auto; 
+    height: 50vh;
+    padding-top: 5em;
+  }
+
+.carousel-item {
+    height: 25rem;
+    background:gray;
+    color: white;            
+    position: relative;
+}
+
+.container {
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+    padding-bottom: 5px;
+    font-size: 10rem;
+}
+
+.x {
+    padding-bottom: 50px;
+    max-height: 100%;
+    width:auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+h5 {
+  font-size: 1rem;
+  color: white;
+  margin-bottom: -20px;
+}
+.rentsign {
+  padding-top: 65px;
+  color: red;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+            
+}
+.specs {
+  font-size: .75rem;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+
+.address {
+  font-size: .75rem;
+  color: black;
+  text-align: center;
+}
+
+body{
+    font-family: Verdana, Arial, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    }
